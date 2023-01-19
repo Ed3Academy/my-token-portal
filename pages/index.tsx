@@ -72,9 +72,6 @@ const Home = () => {
           {totalSupply && <div>{Number(totalSupply)}</div>}
         </div>
         <div className={styles.card}>
-          <div>Mint Price</div>
-        </div>
-        <div className={styles.card}>
           <div>Mint</div>
           <div>
             <button
